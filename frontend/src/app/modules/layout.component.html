@@ -1,0 +1,27 @@
+<div id="wrapper">
+    <app-topnav-bar></app-topnav-bar>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quizes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Students</a>
+            </li>
+        </ul>
+        </div>
+        <div class="card-body" style="min-height: 500px;">          
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+      
+
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <a href="https://github.com/suhailvs/pscquiz/">source code</a>
+        <!--  | Email: stackschools@gmail.com -->
+      </footer>
+    </div>
+
+</div>

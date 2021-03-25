@@ -1,0 +1,36 @@
+
+<div class="row">
+	<div class="col-md-4 offset-md-4">
+    <p class="logo">Kerala PSC Quiz</p>
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title">Log in</h4>
+      </div>
+      <article class="card-body">
+        
+    	 <form (ngSubmit)="onLogin()">
+        <div class="form-group mt-2">
+        	<label>Username</label>
+          <input name="username" placeholder="Username" [(ngModel)]="user.username" class="form-control" required>
+        </div> <!-- form-group// -->
+        <div class="form-group mt-2">
+        	
+        	<label>Your password</label>
+          <input class="form-control" name="password" placeholder="Password" [(ngModel)]="user.password" type="password" required>
+        </div> <!-- form-group// --> 
+        
+        <div class="form-group mt-4 mb-2">
+          <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+          </div>
+        </div> <!-- form-group// -->
+                                                        
+        </form>
+        
+        <hr>
+        <p class="text-muted text-center">pscquiz ©2021 All Rights Reserved.</p>
+      </article>
+    </div> <!-- card.// -->
+
+	</div> <!-- col.// -->
+</div>
