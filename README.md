@@ -1,4 +1,4 @@
-# [Demo](https://suhailvs.github.io/pscquiz/)
+# Work in progress (hope to release a beta version by 2022)
 
 [![Django Version](https://img.shields.io/badge/django-3.1.7-brightgreen.svg)](https://djangoproject.com)
 [![Angular Version](https://img.shields.io/static/v1?label=angular&message=11.2.5&color=<COLOR>)](https://angular.io/)
@@ -19,7 +19,12 @@ production files used for github pages hosting.
 generated using command:
 	
 	ng build --prod --base-href "https://pscquiz.in/"
+	mv build/pscquiz docs/
+	git restore docs/CNAME
 
 **frontend/**
 
-angular11. please visit https://pscquiz.in/
+angular11. 
+
+
+please visit https://pscquiz.in/
