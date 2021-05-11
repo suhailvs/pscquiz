@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "590667449641",
+    "project_id": "emerald-outpost-277909",
+    "storage_bucket": "emerald-outpost-277909.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590667449641:android:38105b81645dd53b5fa338",
+        "android_client_info": {
+          "package_name": "pw.suhail.pscquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590667449641-797s87i3khu1b4thbofg9jko3otf64vt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pw.suhail.pscquiz",
+            "certificate_hash": "a19a946c5f7c74c8ebb4e8ff490b8c2087161a59"
+          }
+        },
+        {
+          "client_id": "590667449641-jl5dci9j66fv9conqhgn438fvuq5kr2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSM4nDgssSUDIBnttFx5HD5GNj9BVzwZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590667449641-2qgth9hs8svt5vthlgu733e4jg753bks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
