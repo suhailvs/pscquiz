@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class AppBottomNav extends StatelessWidget {
   @override
@@ -6,13 +7,13 @@ class AppBottomNav extends StatelessWidget {
     return BottomNavigationBar(
       items: [
         BottomNavigationBarItem(
-          icon: Icon(Icons.home),
+            icon: Icon(FontAwesomeIcons.graduationCap, size: 20),
             title: Text('Topics')),
         BottomNavigationBarItem(
-          icon: Icon(Icons.bolt),
+            icon: Icon(FontAwesomeIcons.bolt, size: 20),
             title: Text('About')),
         BottomNavigationBarItem(
-          icon: Icon(Icons.account_circle),
+            icon: Icon(FontAwesomeIcons.userCircle, size: 20),
             title: Text('Profile')),
       ].toList(),
       fixedColor: Colors.deepPurple[200],
@@ -25,11 +26,10 @@ class AppBottomNav extends StatelessWidget {
             Navigator.pushNamed(context, '/about');
             break;
           case 2:
-            Navigator.pushNamed(context, '/');
+            Navigator.pushNamed(context, '/profile');
             break;
         }
       },
     );
   }
 }
-
